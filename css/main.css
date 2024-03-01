@@ -1,0 +1,124 @@
+.header {
+    position: fixed;
+    width: 100vw;
+    height: 125px;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    background-color: #6b6969; /* remove later */
+}
+
+
+/* secton for the logo of the page */
+
+/* change the size and position of the logo */
+.h-logo {
+    position: relative;
+    left: 90vw;
+    top: 10%;
+}
+
+.h-logo-content {   
+    width: 100px;
+    height: 100px;
+}
+
+
+/* section for the menu-button of the page */
+
+.h-sidebar {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    top: 15%;
+    left: 2vw;    
+}
+
+.bar1, .bar2, .bar3 {
+    width: 45px;
+    height: 7px;
+    background-color: #333;
+    margin: 7px 0;
+    transition: 0.4s;
+}
+  
+/* translate zu einem späteren Zeitpunkt anpassen, sodass das "X" symetrisch ist */
+.change .bar1 {
+    transform: translate(0, 13.5px) rotate(-45deg);
+}
+  
+.change .bar2 {
+    opacity: 0;
+}
+  
+.change .bar3 {
+    transform: translate(0, -13.5px) rotate(45deg);
+}
+
+
+/* section for the menu-content */
+.sidebar {
+    display: none;
+    position: absolute;
+    background-color: #331b1b; /*change after testing */
+    width: 20vw;
+    height: 100vh; /* warum passt die höhe nicht? xD */
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+}
+
+
+/* section for the Main-page */
+.main {
+    position: absolute;
+    width: 100vw;
+    top: 125px;
+    left: 0%;
+    background-color: #6b6969
+}
+
+.m-content-2 {
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    background-color: #a7a6a6;
+}
+
+.m-content-1 {
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    background-color: #949393;
+}
+
+
+/* btton section */
+.button-download:hover, .button-read:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+}
+
+.button-download, .button-read {
+    border-radius: 20px;
+    padding: 12px;
+    width: 130px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.m-content-2-buttons {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+.m-content-1-buttons {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
