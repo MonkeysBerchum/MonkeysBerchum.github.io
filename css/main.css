@@ -64,11 +64,21 @@
     background-color: #331b1b; /*change after testing */
     width: 20vw;
     height: 100vh; /* warum passt die höhe nicht? xD */
-    top: 0%;
+    top: 125px;
     left: 0%;
     z-index: 5;
 }
 
+.sidebar-content {
+    display: none;   
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.sidebar-list {
+    list-style-type: none;
+}
 
 /* section for the Main-page */
 .main {
@@ -91,6 +101,14 @@
     width: 100vw;
     height: 500px;
     background-color: #949393;
+}
+
+
+/* link section */
+.page-link {
+    text-decoration: none;
+    color: white;
+
 }
 
 

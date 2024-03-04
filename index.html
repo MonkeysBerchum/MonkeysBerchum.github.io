@@ -8,7 +8,7 @@
 
     <script src="./js/main.js"></script>
 
-    <title>B&uuml;cher - Alle Bücher</title>
+    <title>B&uuml;cher - Alle B&uuml;cher</title>
 </head>
 <body>
     
@@ -16,7 +16,7 @@
     <div class="h-logo"> <!-- change logo-content -->
         <img src="./img/Monkeys_Logo.png" class="h-logo-content">
     </div>
-    <div class="h-sidebar" onclick="transformX(this); openMenu()">
+    <div class="h-sidebar" onclick="transformX(this); openMenu(); openMenu2()">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
@@ -24,7 +24,12 @@
 </div>
 
 <div class="sidebar" id="sidebar">
-
+    <div class="sidebar-content" id="sidebar-content">
+        <ul class="sidebar-list">
+            <li><a href="./view/kochbuch.html" class="page-link">Kochbuch</a></li>
+            <li><a href="./view/achtsamkeit.html" class="page-link">Achtsamkeit</a></li>
+        </ul>
+    </div>
 </div>
 
 <div class="main"> <!-- let top content be highest number -->
@@ -38,7 +43,11 @@
         <div class="m-content-1">
             <div class="m-content-1-buttons">
                 <button class="button-read" id="read-content-1">Online lesen</button>
-                <button class="button-download" id="download-content-1">Download</button>
+                <button class="button-download" id="download-content-1" >Download</button>
+                <!--switch button to link 
+                href to file
+                download file property 
+                https://stackoverflow.com/questions/11620698/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript-->
             </div>
         </div>    
     </div>
