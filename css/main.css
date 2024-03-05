@@ -23,6 +23,12 @@
     height: 100px;
 }
 
+.WIP {
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    font-size: 16;
+}
 
 /* section for the menu-button of the page */
 
