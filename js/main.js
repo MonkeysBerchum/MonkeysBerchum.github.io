@@ -23,3 +23,11 @@ function openMenu2() {
         custDiv.style.display = "block";
     }
 }
+
+function dropdownSidebar2() {
+    
+}
+
+function dropdownSidebar1() {
+
+}

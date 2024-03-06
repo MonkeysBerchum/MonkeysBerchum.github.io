@@ -86,13 +86,23 @@
     list-style-type: none;
 }
 
+.sidebar-button {
+    font-family: "Caveat", cursive;
+    background: none;
+    background-color: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    
+}
+
 /* section for the Main-page */
 .main {
     position: absolute;
     width: 100vw;
     top: 125px;
     left: 0%;
-    background-color: #6b6969
+    background-color: #6b6969;
 }
 
 .m-content-2 {
@@ -114,35 +124,38 @@
 .page-link {
     text-decoration: none;
     color: white;
-
 }
 
 
 /* btton section */
-.button-download:hover, .button-read:hover{
+.download-button:hover, .read-button:hover{
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
 }
 
-.button-download, .button-read {
+.download-button, .read-button {
+    background-color: #5f5d5d;
     border-radius: 20px;
+    border: solid 3px;
+    border-color: #333;
+    color: rgb(48, 47, 47);
+    text-align: center;
     padding: 12px;
     width: 130px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 18 px;
     text-decoration: none;
     float: left;
     margin-right: 20px;
-
 }
 
 .m-content-2-buttons {
     position: absolute;
     top: 90%;
-    left: 45%;
+    left: 41%;
 }
 
 .m-content-1-buttons {
     position: absolute;
     top: 90%;
-    left: 45%;
+    left: 41%;
 }
