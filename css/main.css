@@ -1,3 +1,12 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./caveat-v18-latin-regular.woff2') format('woff2'), 
+         url('./caveat-v18-latin-regular.ttf') format('truetype'); 
+  }
+
 .header {
     position: fixed;
     width: 100vw;
@@ -67,7 +76,7 @@
 .sidebar {
     display: none;
     position: absolute;
-    background-color: #331b1b; /*change after testing */
+    background-color: #331b1b;      /* working color */
     width: 20vw;
     height: 100vh; /* warum passt die höhe nicht? xD */
     top: 125px;
@@ -102,21 +111,21 @@
     width: 100vw;
     top: 125px;
     left: 0%;
-    background-color: #6b6969;
+    background-color: #6b6969;      /* working color */
 }
 
 .m-content-2 {
     position: relative;
     width: 100vw;
     height: 600px;
-    background-color: #a7a6a6;
+    background-color: #a7a6a6;      /* working color */
 }
 
 .m-content-1 {
     position: relative;
     width: 100vw;
     height: 500px;
-    background-color: #949393;
+    background-color: #949393;      /* working color */
 }
 
 
@@ -133,7 +142,7 @@
 }
 
 .download-button, .read-button {
-    background-color: #5f5d5d;
+    background-color: #5f5d5d;      /* working color */
     border-radius: 20px;
     border: solid 3px;
     border-color: #333;
@@ -158,4 +167,36 @@
     position: absolute;
     top: 90%;
     left: 41%;
+}
+
+.footer {
+    position: absolute;
+    top: 1225px;            /* number is added from all top-px from above */
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background-color: #4d4c4c; /* working color */
+} 
+
+.info-links {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    list-style-type: none;
+}
+
+.media-links {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    list-style-type: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;       
+}
+
+.footer-link:hover {
+    color: white;       /* working color */
 }
