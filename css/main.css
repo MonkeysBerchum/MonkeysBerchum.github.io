@@ -117,15 +117,15 @@
 .m-content-2 {
     position: relative;
     width: 100vw;
-    height: 600px;
-    background-color: #a7a6a6;      /* working color */
+    height: 600vh;
+    background-image: url(../img/Achtsamkeit_BG.png);   /* Bild bitte noch bearbeiten */
 }
 
 .m-content-1 {
     position: relative;
     width: 100vw;
     height: 500px;
-    background-color: #949393;      /* working color */
+    background-image: url(../img/Kochbuck_BG.png);      /* Bild bitte noch bearbeiten */
 }
 
 
